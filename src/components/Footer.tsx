@@ -2,10 +2,8 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, Twitter, Youtube, Instagram, Heart } from "lucide-react";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub", color: "hover:text-gray-300" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn", color: "hover:text-blue-400" },
-  { icon: Twitter, href: "https://twitter.com", label: "Twitter", color: "hover:text-sky-400" },
-  { icon: Youtube, href: "https://youtube.com", label: "YouTube", color: "hover:text-red-500" },
+  { icon: Github, href: "https://github.com/emayavarman-codes", label: "GitHub", color: "hover:text-gray-300" },
+  { icon: Linkedin, href: "https://linkedin.com/in/emayavarman-a-811aa6244", label: "LinkedIn", color: "hover:text-blue-400" },
   { icon: Instagram, href: "https://instagram.com", label: "Instagram", color: "hover:text-pink-400" },
 ];
 
@@ -62,7 +60,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="mt-8 pt-8 border-t border-border/30 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
           <p>
-            © {new Date().getFullYear()} Your Name. All rights reserved.
+            © {new Date().getFullYear()} emayavarman. All rights reserved.
           </p>
           <p className="flex items-center gap-1">
             Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> using React & Framer Motion

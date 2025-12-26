@@ -5,18 +5,18 @@ import GradientBlurs from "@/components/GradientBlurs";
 const profiles = [
   {
     name: "GitHub",
-    username: "@yourusername",
-    stats: "500+ contributions",
+    username: "@emayavarman-codes",
+    stats: "10+ Repositories",
     description: "Open source contributions and personal projects",
     icon: GitBranch,
     color: "from-gray-600 to-gray-800",
-    link: "https://github.com",
+    link: "https://github.com/emayavarman-codes",
     bgColor: "bg-gray-800/50",
   },
   {
     name: "LeetCode",
     username: "@yourusername",
-    stats: "300+ problems solved",
+    stats: "Beginner",
     description: "Algorithm and data structure challenges",
     icon: Code,
     color: "from-yellow-500 to-orange-500",
@@ -24,25 +24,16 @@ const profiles = [
     bgColor: "bg-yellow-900/20",
   },
   {
-    name: "SkillRack",
-    username: "@yourusername",
-    stats: "Gold Badge",
+    name: "Geeksforgeeks",
+    username: "@emayava38x8",
+    stats: "Beginner",
     description: "Programming skill assessments and certifications",
     icon: Trophy,
     color: "from-purple-500 to-pink-500",
-    link: "https://skillrack.com",
+    link: "https://www.geeksforgeeks.org/profile/emayava38x8",
     bgColor: "bg-purple-900/20",
   },
-  {
-    name: "HackerRank",
-    username: "@yourusername",
-    stats: "5-star rated",
-    description: "Technical challenges and competitions",
-    icon: Star,
-    color: "from-green-500 to-emerald-500",
-    link: "https://hackerrank.com",
-    bgColor: "bg-green-900/20",
-  },
+ 
 ];
 
 const containerVariants = {
@@ -82,7 +73,7 @@ const Profiles = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="text-primary font-mono text-sm">&lt;profiles /&gt;</span>
+          <span className="text-primary font-mono text-sm"></span>
           <h1 className="text-4xl md:text-6xl font-bold mt-4 mb-6">
             Coding <span className="gradient-text">Profiles</span>
           </h1>

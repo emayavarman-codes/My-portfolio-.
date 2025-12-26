@@ -37,9 +37,9 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "hello@example.com" },
-    { icon: MapPin, label: "Location", value: "San Francisco, CA" },
-    { icon: Phone, label: "Phone", value: "+1 (555) 123-4567" },
+    { icon: Mail, label: "Email", value: "emayavarman99@gmail.com" },
+    { icon: MapPin, label: "Location", value: "Cuddalore, Tamil Nadu" },
+    { icon: Phone, label: "Phone", value: "+91 8610330345" },
   ];
 
   return (

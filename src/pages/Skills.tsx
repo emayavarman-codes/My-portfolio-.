@@ -3,14 +3,12 @@ import { Code2, Palette, Database, Globe, Smartphone, Terminal, Cpu, Cloud } fro
 import GradientBlurs from "@/components/GradientBlurs";
 
 const skills = [
-  { name: "React / Next.js", level: 95, icon: Code2, category: "Frontend" },
-  { name: "TypeScript", level: 90, icon: Terminal, category: "Languages" },
-  { name: "Node.js", level: 85, icon: Globe, category: "Backend" },
-  { name: "Python", level: 80, icon: Cpu, category: "Languages" },
-  { name: "UI/UX Design", level: 88, icon: Palette, category: "Design" },
-  { name: "PostgreSQL", level: 82, icon: Database, category: "Database" },
-  { name: "React Native", level: 75, icon: Smartphone, category: "Mobile" },
-  { name: "AWS / Cloud", level: 78, icon: Cloud, category: "DevOps" },
+  { name: "HTML", level: 70, icon: Code2, category: "Frontend" },
+  { name: "CSS", level: 60, icon: Terminal, category: "Frontend" },
+  { name: "Java", level: 85, icon: Globe, category: "Backend" },
+  { name: "Spring Boot", level: 60, icon: Cpu, category: "Framework" },
+  { name: "MySQL", level: 70, icon: Database, category: "Database" },
+  { name: "Hibernate", level: 78, icon: Cloud, category: "Framework" },
 ];
 
 const containerVariants = {
@@ -49,9 +47,9 @@ const Skills = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="text-primary font-mono text-sm">&lt;skills /&gt;</span>
+          <span className="text-primary font-mono text-sm"></span>
           <h1 className="text-4xl md:text-6xl font-bold mt-4 mb-6">
-            My <span className="gradient-text">Expertise</span>
+            Technical <span className="gradient-text">Skills</span>
           </h1>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             A showcase of my technical skills and proficiency levels across various technologies and domains.

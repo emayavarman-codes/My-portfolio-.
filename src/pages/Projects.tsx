@@ -4,50 +4,35 @@ import GradientBlurs from "@/components/GradientBlurs";
 
 const projects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with real-time inventory management and payment processing.",
-    tags: ["React", "Node.js", "PostgreSQL", "Stripe"],
+    title: "A Robust event management system for efficient planning and execution",
+    description: " Developed a web-based event management system to streamline event planning, registration, and execution. Deployed the system online using PHP and MySQL on a web hosting platform.",
+    tags: ["PHP", "SQL"],
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=600&h=400&fit=crop",
     github: "https://github.com",
     live: "https://example.com",
   },
   {
-    title: "AI Dashboard",
-    description: "Analytics dashboard powered by machine learning for predictive insights and data visualization.",
-    tags: ["Next.js", "Python", "TensorFlow", "D3.js"],
+    title: " College Website Project",
+    description: " Designed a responsive and modern college website UI with clean layout and professional styling",
+    tags: ["HTML", "CSS"],
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
     github: "https://github.com",
     live: "https://example.com",
   },
   {
-    title: "Social Media App",
-    description: "Real-time social platform with messaging, content sharing, and community features.",
-    tags: ["React Native", "Firebase", "Redux", "WebSocket"],
+    title: " OnlineFoodOrdering System (OOPS- Based):",
+    description: " Developed an online food ordering system using Object-Oriented Programming principles in Java. Implemented features such as menu browsing, order placement, and payment processing.",
+    tags: ["HTML", "CSS", "Java", "MySQL"],
     image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop",
     github: "https://github.com",
     live: "https://example.com",
   },
+ 
   {
-    title: "Portfolio Generator",
-    description: "Drag-and-drop portfolio builder with customizable themes and instant deployment.",
-    tags: ["Vue.js", "Tailwind", "Netlify", "GraphQL"],
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-    github: "https://github.com",
-    live: "https://example.com",
-  },
-  {
-    title: "Task Management",
-    description: "Collaborative project management tool with Kanban boards and team analytics.",
-    tags: ["React", "Express", "MongoDB", "Socket.io"],
+    title: " Employee Management System",
+    description: "Developed a corporate employee management system implementing OOPS concepts including encapsulation, inheritance, abstraction, and polymorphism with database connectivity.",
+    tags: ["HTML", "CSS", "Java", "JDBC", "MySQL"],
     image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop",
-    github: "https://github.com",
-    live: "https://example.com",
-  },
-  {
-    title: "Crypto Tracker",
-    description: "Real-time cryptocurrency tracking with portfolio management and price alerts.",
-    tags: ["TypeScript", "Redux", "Chart.js", "API"],
-    image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=600&h=400&fit=crop",
     github: "https://github.com",
     live: "https://example.com",
   },
@@ -90,9 +75,9 @@ const Projects = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="text-primary font-mono text-sm">&lt;projects /&gt;</span>
+          <span className="text-primary font-mono text-sm"></span>
           <h1 className="text-4xl md:text-6xl font-bold mt-4 mb-6">
-            Featured <span className="gradient-text">Work</span>
+            Project <span className="gradient-text">Work</span>
           </h1>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             A collection of projects that showcase my skills in design, development, and problem-solving.

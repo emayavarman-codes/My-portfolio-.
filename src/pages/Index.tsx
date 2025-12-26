@@ -6,18 +6,16 @@ import Scene3D from "@/components/Scene3D";
 import GradientBlurs from "@/components/GradientBlurs";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
-  { icon: Youtube, href: "https://youtube.com", label: "YouTube" },
+  { icon: Github, href: "https://github.com/emayavarman-codes", label: "GitHub" },
+  { icon: Linkedin, href: "https://linkedin.com/in/emayavarman-a-811aa6244", label: "LinkedIn" },
+
   { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
 ];
 
 const achievements = [
-  { number: "50+", label: "Projects Completed" },
-  { number: "5+", label: "Years Experience" },
-  { number: "30+", label: "Happy Clients" },
-  { number: "100%", label: "Satisfaction Rate" },
+  { number: "3+", label: "Projects Completed" },
+  { number: "0+", label: "Years Experience" },
+  { number: "5+", label: "Certifications courses" },
 ];
 
 const containerVariants = {
@@ -69,10 +67,10 @@ const Index = () => {
           {/* Main Heading */}
           <motion.h1
             variants={itemVariants}
-            className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight"
+            className="text-4xl sm:text-6xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight"
           >
             Hi, I'm{" "}
-            <span className="gradient-text glow-text">Your Name</span>
+            <span className="gradient-text glow-text">EMAYAVARMAN</span>
           </motion.h1>
 
           {/* Subtitle */}
@@ -80,8 +78,8 @@ const Index = () => {
             variants={itemVariants}
             className="text-xl sm:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto"
           >
-            Full-Stack Developer & Creative Technologist crafting
-            <span className="text-primary"> immersive digital experiences</span>
+            Aspiring Java Software Developer <br></br>
+            <span className="text-primary"> Learning, building, and growing as a developer.</span>
           </motion.p>
 
           {/* CTA Buttons */}
@@ -175,7 +173,7 @@ const Index = () => {
               viewport={{ once: true }}
               className="text-primary font-mono text-sm"
             >
-              &lt;about me /&gt;
+            
             </motion.span>
             <motion.h2
               initial={{ opacity: 0, x: -20 }}
@@ -184,8 +182,8 @@ const Index = () => {
               viewport={{ once: true }}
               className="text-4xl md:text-5xl font-bold"
             >
-              Crafting Digital
-              <span className="gradient-text"> Excellence</span>
+              About
+              <span className="gradient-text"> me</span>
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, x: -20 }}
@@ -194,9 +192,7 @@ const Index = () => {
               viewport={{ once: true }}
               className="text-muted-foreground text-lg leading-relaxed"
             >
-              I'm a passionate developer with expertise in building scalable web applications
-              and creating stunning user experiences. With a keen eye for design and a love
-              for clean code, I transform ideas into reality.
+             I am an MCA graduate with a solid foundation in Java, HTML, CSS, databases, and basic software engineering principles. I have hands-on experience through academic projects like an Event Management System, where I worked on design, development, and database integration.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, x: -20 }}
@@ -205,17 +201,15 @@ const Index = () => {
               viewport={{ once: true }}
               className="text-muted-foreground text-lg leading-relaxed"
             >
-              My journey spans across frontend frameworks, backend technologies, and
-              everything in between. I believe in continuous learning and pushing the
-              boundaries of what's possible on the web.
+              I am passionate about writing efficient code, learning new technologies, and improving my problem-solving abilities through continuous practice. As a fresher, I am eager to start my career in a collaborative environment where I can apply my skills, gain industry exposure, and grow as a software professional.
             </motion.p>
-            <motion.div
+           <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6 }}
               viewport={{ once: true }}
             >
-              <Link to="/resume">
+              <a href="/pdf/resume.pdf" download>
                 <motion.button
                   className="px-6 py-3 rounded-xl bg-secondary hover:bg-secondary/80 font-medium flex items-center gap-2 transition-colors"
                   whileHover={{ scale: 1.05 }}
@@ -224,7 +218,7 @@ const Index = () => {
                   Download Resume
                   <ArrowDown className="w-4 h-4" />
                 </motion.button>
-              </Link>
+              </a>
             </motion.div>
           </div>
 
