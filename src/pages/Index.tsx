@@ -209,7 +209,7 @@ const Index = () => {
               transition={{ delay: 0.6 }}
               viewport={{ once: true }}
             >
-              <a href="/pdf/resume.pdf" download>
+              <a href="/pdf/resume1.pdf" download>
                 <motion.button
                   className="px-6 py-3 rounded-xl bg-secondary hover:bg-secondary/80 font-medium flex items-center gap-2 transition-colors"
                   whileHover={{ scale: 1.05 }}

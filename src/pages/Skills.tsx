@@ -121,7 +121,7 @@ const Skills = () => {
               Always learning, always growing. Currently exploring:
             </p>
             <div className="flex flex-wrap gap-3 justify-center">
-              {["AI/ML", "Web3", "Rust", "Three.js"].map((tech, index) => (
+              {["Javascript", "React", "Python"].map((tech, index) => (
                 <motion.span
                   key={tech}
                   className="px-4 py-2 rounded-xl bg-primary/10 text-primary font-medium text-sm"

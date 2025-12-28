@@ -68,7 +68,7 @@ const Resume = () => {
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4">
             <motion.a
-              href="pdf/resume.pdf"
+              href="pdf/resume1.pdf"
               download
               className="flex-1 px-6 py-4 rounded-xl bg-gradient-to-r from-primary to-accent text-primary-foreground font-semibold text-lg flex items-center justify-center gap-3 group"
               whileHover={{ scale: 1.02 }}
@@ -83,7 +83,7 @@ const Resume = () => {
               Download PDF
             </motion.a>
             <motion.a
-              href="pdf/resume.pdf"
+              href="pdf/resume1.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 px-6 py-4 rounded-xl glass border border-primary/30 font-semibold text-lg flex items-center justify-center gap-3 hover:bg-primary/10 transition-colors"

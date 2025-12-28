@@ -7,35 +7,28 @@ const projects = [
     title: "A Robust event management system for efficient planning and execution",
     description: " Developed a web-based event management system to streamline event planning, registration, and execution. Deployed the system online using PHP and MySQL on a web hosting platform.",
     tags: ["PHP", "SQL"],
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=600&h=400&fit=crop",
-    github: "https://github.com",
-    live: "https://example.com",
+    image: "src/Img/event.png",
+    github: "https://github.com/emayavarman-codes/EVENT_MANAGEMENT_SYSTEM_PROJECT/tree/master",
+    live: "http://localhost/royal_event/index.php",
   },
   {
     title: " College Website Project",
     description: " Designed a responsive and modern college website UI with clean layout and professional styling",
     tags: ["HTML", "CSS"],
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
-    github: "https://github.com",
-    live: "https://example.com",
+    image: "src/Img/clg.png",
+    github: "https://github.com/emayavarman-codes/college_website",
+    live: "https://emayavarman.neocities.org/college%20website/#contact",
   },
   {
-    title: " OnlineFoodOrdering System (OOPS- Based):",
+    title: " Online Food Ordering System (OOPS- Based):",
     description: " Developed an online food ordering system using Object-Oriented Programming principles in Java. Implemented features such as menu browsing, order placement, and payment processing.",
     tags: ["HTML", "CSS", "Java", "MySQL"],
-    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop",
-    github: "https://github.com",
-    live: "https://example.com",
+    image: "src/Img/food.png",
+    github: "https://github.com/emayavarman-codes/Online-food-order-.",
+    live: "https://v54db51z-8080.inc1.devtunnels.ms/",
   },
  
-  {
-    title: " Employee Management System",
-    description: "Developed a corporate employee management system implementing OOPS concepts including encapsulation, inheritance, abstraction, and polymorphism with database connectivity.",
-    tags: ["HTML", "CSS", "Java", "JDBC", "MySQL"],
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=600&h=400&fit=crop",
-    github: "https://github.com",
-    live: "https://example.com",
-  },
+ 
 ];
 
 const containerVariants = {
