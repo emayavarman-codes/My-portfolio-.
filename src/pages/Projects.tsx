@@ -25,7 +25,7 @@ const projects = [
     tags: ["HTML", "CSS", "Java", "MySQL"],
     image: "src/Img/food.png",
     github: "https://github.com/emayavarman-codes/Online-food-order-.",
-    live: "https://v54db51z-8080.inc1.devtunnels.ms/",
+    live: "https://online-food-order-omega.vercel.app/",
   },
  
  
