@@ -63,7 +63,7 @@ const Footer = () => {
             © {new Date().getFullYear()} emayavarman. All rights reserved.
           </p>
           <p className="flex items-center gap-1">
-            Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> using React & Framer Motion
+            Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> using React and Vite.HTML,CSS
           </p>
         </div>
       </div>
